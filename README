@@ -1,3 +1,6 @@
 julia test.jl 2>tmp_logs
 watch -n 10  'bash kill_jl.sh'
 julia read_logs.jl
+
+
+python3 /home/jl8975/smem -ku
